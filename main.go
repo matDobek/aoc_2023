@@ -1,9 +1,9 @@
 package main
 
-import ex1 "github.com/matDobek/aoc_2023/internal"
+import "github.com/matDobek/aoc_2023/internal/ex2"
 
 func main() {
-	ex1.A()
+	ex2.A()
 	println()
-	ex1.B()
+	ex2.B()
 }

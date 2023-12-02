@@ -98,7 +98,7 @@ func to_i(str string) int {
 }
 
 func parseInput() ([]string, error) {
-	dat, err := os.ReadFile("./internal/ex1.input")
+	dat, err := os.ReadFile("./internal/ex1/ex1.input")
 	if err != nil {
 		return nil, err
 	}
